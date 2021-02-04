@@ -1,0 +1,32 @@
+{
+  "name": "elm-ui-tailwind",
+  "version": "1.0.0",
+  "description": "Trying to build out the tailwind ui components using both Elm-UI and tailwind css.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewp/elm-ui-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kewp/elm-ui-tailwind/issues"
+  },
+  "homepage": "https://github.com/kewp/elm-ui-tailwind#readme",
+  "devDependencies": {
+    "elm-hot": "^1.1.6",
+    "node-elm-compiler": "^5.0.5",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  }
+}
